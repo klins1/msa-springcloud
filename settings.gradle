@@ -1,0 +1,25 @@
+rootProject.name = 'lcmdev'
+
+// ====================================================
+// Istio
+// ====================================================
+
+// service
+//include 'services/user-service'
+
+
+// ====================================================
+// spring cloud
+// ====================================================
+
+// server
+include 'spring-cloud/config-server'
+include 'spring-cloud/eueraka-server'
+
+// client
+include 'spring-cloud/web-site'
+
+// service
+include 'spring-cloud/search-apigateway'
+include 'spring-cloud/search'
+include 'spring-cloud/booking'
